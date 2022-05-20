@@ -35,6 +35,6 @@ const devEnv = {
 
 const app = new App();
 
-new MyStack(app, 'github-oidc', { env: devEnv });
+new MyStack(app, 'github-oidc-role', { env: devEnv });
 
 app.synth();
